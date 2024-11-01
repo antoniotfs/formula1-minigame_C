@@ -16,8 +16,6 @@ Este é um minigame simples de Fórmula 1 desenvolvido em C, onde o jogador cont
    git clone https://github.com/aironvalentim/minigame-f1.git
    cd minigame-f1
 
-## principais funções
-
 ### Integrantes do Grupo
 
 | Nome               | Função             |
