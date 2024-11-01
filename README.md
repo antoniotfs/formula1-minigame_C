@@ -16,6 +16,17 @@ Este é um minigame simples de Fórmula 1 desenvolvido em C, onde o jogador cont
    git clone https://github.com/aironvalentim/minigame-f1.git
    cd minigame-f1
 
+## Controles
+Pressione a para acelerar.
+Pressione d para desacelerar.
+Pressione r para completar uma volta.
+
+##Contribuição
+Contribuições são bem-vindas! Se você quiser melhorar o jogo, sinta-se à vontade para abrir um pull request ou relatar problemas.
+
+##Licença
+Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
 ### Integrantes do Grupo
 
 | Nome               | Função             |
