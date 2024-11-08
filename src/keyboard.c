@@ -35,15 +35,12 @@ int keyhit()
 {
     unsigned char ch;
     int nread;
-
     if (peekCharacter != -1) return 1;
-    
     newSettings.c_cc[VMIN]=0;
     tcsetattr(0, TCSANOW, &newSettings);
     nread = read(0,&ch,1);
     newSettings.c_cc[VMIN]=1;
     tcsetattr(0, TCSANOW, &newSettings);
-    
     if(nread == 1) 
     {
         peekCharacter = ch;
@@ -56,7 +53,6 @@ int keyhit()
 int readch()
 {
     char ch;
-
     if(peekCharacter != -1)
     {
         ch = peekCharacter;
