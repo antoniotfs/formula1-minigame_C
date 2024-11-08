@@ -1,14 +1,6 @@
-/**
- * screen.c
- * Created on Aug, 23th 2023
- * Author: Tiago Barros
- * Based on "From C to C++ course - 2002"
-*/
-
 #include "screen.h"
 
-void screenDrawBorders() 
-{
+void screenDrawBorders() {
     char hbc = BOX_HLINE;
     char vbc = BOX_VLINE;
     
@@ -18,16 +10,14 @@ void screenDrawBorders()
     screenGotoxy(MINX, MINY);
     printf("%c", BOX_UPLEFT);
 
-    for (int i=MINX+1; i<MAXX; i++)
-    {
+    for (int i = MINX + 1; i < MAXX; i++) {
         screenGotoxy(i, MINY);
         printf("%c", hbc);
     }
     screenGotoxy(MAXX, MINY);
     printf("%c", BOX_UPRIGHT);
 
-    for (int i=MINY+1; i<MAXY; i++)
-    {
+    for (int i = MINY + 1; i < MAXY; i++) {
         screenGotoxy(MINX, i);
         printf("%c", vbc);
         screenGotoxy(MAXX, i);
@@ -36,8 +26,7 @@ void screenDrawBorders()
 
     screenGotoxy(MINX, MAXY);
     printf("%c", BOX_DWNLEFT);
-    for (int i=MINX+1; i<MAXX; i++)
-    {
+    for (int i = MINX + 1; i < MAXX; i++) {
         screenGotoxy(i, MAXY);
         printf("%c", hbc);
     }
@@ -45,8 +34,8 @@ void screenDrawBorders()
     printf("%c", BOX_DWNRIGHT);
 
     screenBoxDisable();
-    
 }
+
 
 void screenInit(int drawBorders)
 {
