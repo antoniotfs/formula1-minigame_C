@@ -9,11 +9,14 @@ Este é um jogo simples de Fórmula 1 desenvolvido em C, onde o jogador controla
   - Pressione *S* para desacelerar.
   - Pressione *A* para ir para a esquerda.
   - Pressione *D* para ir para a direita.
+
 *Sistema de Obstáculos*:
   - Desvie de outros carros na pista para evitar colisões.
   - Se colidir com outro carro, será *Game Over*.
+
 *Cronômetro*:
   - Um cronômetro é exibido na tela para acompanhar o tempo da corrida.
+
 *Pontuação*:
   - O objetivo é completar a corrida no menor tempo possível.
   - Seu tempo final será exibido ao final da partida, com a possibilidade de bater seu próprio recorde.
