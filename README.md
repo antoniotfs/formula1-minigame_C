@@ -1,31 +1,59 @@
-# Minigame Fórmula 1 em C
+# Minigame Fórmula 1 em C 🏎
 
-Este é um minigame simples de Fórmula 1 desenvolvido em C, onde o jogador controla um carro em uma pista e compete para completar o maior número de voltas possível dentro de um tempo limite.
+Este é um jogo simples de Fórmula 1 desenvolvido em C, onde o jogador controla um carro em uma pista reta e deve completar o trajeto no menor tempo possível. O objetivo é controlar a velocidade do carro para desviar de obstáculos e atingir o menor tempo ao final da corrida.
 
-## Funcionalidades
+## 🎮 Funcionalidades
 
-- Controle de velocidade: Acelere ou desacelere o carro.
-- Sistema de pontuação: Ganhe pontos ao completar voltas.
-- Tempo limite: Complete o máximo de voltas possível antes que o tempo acabe.
-- Simulação básica de corrida em um ambiente de texto.
+*Controle de Velocidade*: 
+  - Pressione *W* para acelerar.
+  - Pressione *S* para desacelerar.
+  - Pressione *A* para ir para a esquerda.
+  - Pressione *D* para ir para a direita.
+*Sistema de Obstáculos*:
+  - Desvie de outros carros na pista para evitar colisões.
+  - Se colidir com outro carro, será *Game Over*.
+*Cronômetro*:
+  - Um cronômetro é exibido na tela para acompanhar o tempo da corrida.
+*Pontuação*:
+  - O objetivo é completar a corrida no menor tempo possível.
+  - Seu tempo final será exibido ao final da partida, com a possibilidade de bater seu próprio recorde.
 
-## Como Jogar
+## 🚀 Como Jogar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/aironvalentim/minigame-f1.git
-   cd minigame-f1
+### 1. Clonar o repositório
+git clone https://github.com/aironvalentim/minigame-f1.git
+cd minigame-f1
+### 2. Compilar o jogo
+Certifique-se de ter um compilador C instalado (por exemplo, gcc). Para compilar o jogo, utilize o comando:
+gcc minigame-f1.c -o minigame-f1
+### 3. Executar o jogo
+./minigame-f1
 
-## Controles
-Pressione a para acelerar.
-Pressione d para desacelerar.
-Pressione r para completar uma volta.
+## 🎮 Controles do Jogo
+Acelerar: W
+Desacelerar: S
+Desviar: Use  (A← →D) para desviar dos obstáculos.
 
-##Contribuição
-Contribuições são bem-vindas! Se você quiser melhorar o jogo, sinta-se à vontade para abrir um pull request ou relatar problemas.
+## 📊 Pontuação
+O jogo é baseado no menor tempo.
+Ao completar a corrida, seu tempo será registrado. Tente bater seu próprio recorde em novas tentativas!
 
-##Licença
-Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+## 🛠 Tecnologias Utilizadas
+Linguagem C
+Ambiente de console (CLI)
+Compilador GCC (ou similar)
+
+##💡 Próximas Melhorias
+Adicionar diferentes níveis de dificuldade (fácil, médio, difícil).
+Implementar curvas na pista.
+Incluir sons para acelerar e colisões.
+Salvar pontuações em um arquivo.
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas na aba Issues.
+
+## 📄 Licença
+Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
 
 ### Integrantes do Grupo
 
@@ -34,4 +62,3 @@ Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais d
 | Airon Valentim     | Developer          |
 | Antônio Tenório    | Developer          |
 | Gustavo Ferraz     | Developer          |
-
