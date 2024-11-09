@@ -62,8 +62,15 @@ Este é um jogo simples de Fórmula 1 desenvolvido em C, onde o jogador controla
 
 ### Integrantes do Grupo
 
-| Nome               | Função             |
-|--------------------|--------------------|
-| Airon Valentim     | Developer          |
-| Antônio Tenório    | Developer          |
-| Gustavo Ferraz     | Developer          |
+| Nome               | Função             | GitHub             |
+|--------------------|--------------------|--------------------|
+| Airon Valentim     | Developer          | @aironvalentim     |
+| Antônio Tenório    | Developer          | @antoniotfs        |
+| Gustavo Ferraz     | Developer          | @gustvcarvalho     |
+
+# Nome da disciplina: 
+## Programação Imperativa e Funcional - 2024.2
+# Instituição de ensino: 
+## CESAR School
+# Professor:
+## Diego de Freitas
