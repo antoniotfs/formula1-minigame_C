@@ -12,7 +12,7 @@ void screenDrawBorders() {
 
     for (int i = MINX + 1; i < MAXX; i++) {
         screenGotoxy(i, MINY);
-        printf("%c", hbc);
+        printf("  ");
     }
     screenGotoxy(MAXX, MINY);
     printf("%c", BOX_UPRIGHT);
@@ -28,7 +28,7 @@ void screenDrawBorders() {
     printf("%c", BOX_DWNLEFT);
     for (int i = MINX + 1; i < MAXX; i++) {
         screenGotoxy(i, MAXY);
-        printf("%c", hbc);
+        printf("  ");
     }
     screenGotoxy(MAXX, MAXY);
     printf("%c", BOX_DWNRIGHT);
@@ -47,7 +47,7 @@ void screenInit(int drawBorders)
 
 void screenDestroy()
 {
-    printf("%s[0;39;49m", ESC); // Reset colors
+    printf("%s[0;39;49m", ESC);
     screenSetNormal();
     screenClear();
     screenHomeCursor();
